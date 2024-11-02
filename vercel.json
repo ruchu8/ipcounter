@@ -13,4 +13,8 @@
       "src": "/api/(.*)",
       "dest": "server.js"
     }
-  ]
+  ],
+  "scripts": {
+    "postInstall": "npm install graphicsmagick"
+  }
+}
